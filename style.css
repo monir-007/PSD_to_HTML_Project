@@ -385,9 +385,11 @@ p {
 .mail-details>h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 2rem;
+    font-weight: 700;
     letter-spacing: 0.2rem;
-    color: #f9fbfb;
+    color: #0fb353;
     text-transform: uppercase;
+    clo
 }
 
 .mail-details>h5 {
@@ -402,4 +404,181 @@ p {
     font-size: 18px;
     color: #d6d6cd;
 
+}
+
+.customer-view>i {
+    text-align: center;
+}
+
+.warranty-details>h4 {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    color: #0d0c0c;
+    margin-top: 20px;
+}
+
+.warranty-details>h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: rgb(0, 144, 121, 0.9);
+    margin-bottom: 20px;
+}
+
+.warranty-icon>div>i {
+    font-size: 2rem;
+    color: rgb(0, 144, 121, 1);
+
+}
+
+.warranty-icon>div>span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #131212cb;
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+.warranty-details>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.one {
+    height: 60vh;
+    background-image: url(assets/images/living-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one>.container>h1 {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.2rem;
+    color: hsl(187, 83%, 32%);
+    width: 60vh;
+    background-color: rgba(255, 255, 255, 0.534);
+
+}
+
+.personal-sec {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #d6d6cd;
+    margin-bottom: 30px;
+}
+
+.personal-sec>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #d6d6cd;
+    padding-top: 1rem;
+}
+
+.personal-sec>h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d6d6cd;
+    padding-bottom: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.image-col {
+    height: 90vh;
+    background-image: url(assets/images/living-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0;
+
+}
+
+.card {
+    background-color: #f9fbfb;
+    border: none;
+}
+
+.text-col {
+    background-color: hsla(180, 20%, 98%, 0.808);
+    margin-bottom: 3rem;
+}
+
+.box-title {
+    margin: 50px 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box-title>h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.box-subtitle {
+    margin: 40px 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box-subtitle>p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.box-title>p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.craftsmanship-sec>h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d6d6cd;
+    padding-top: 1rem;
+}
+
+.craftsmanship-sec>h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d6d6cd;
+    letter-spacing: 0.2rem;
+}
+.craftsmanship-img>div>div>img{
+    
 }
