@@ -752,7 +752,7 @@ p {
 }
 
 .box-5>.box-content>h4 {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 238, 2);
     font-size: 4rem;
     font-weight: 900;
@@ -776,7 +776,7 @@ p {
 }
 
 .box-6>.box-content>h4 {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: hsla(332, 100%, 69%, 0.897);
     font-size: 4rem;
     font-weight: 700;
@@ -784,7 +784,7 @@ p {
 }
 
 .box-6>.box-content>p {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: hsla(332, 97%, 71%, 0.822);
     font-size: 2rem;
     font-weight: 500;
@@ -816,10 +816,250 @@ p {
 }
 
 .wrapper>div>div>h4 {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #f9fbfb;
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto 80px;
     text-align: center;
+}
+
+.bed-icons {
+    margin-top: 400px;
+    text-align: center;
+
+
+}
+
+.bed-icon {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 5px;
+    color: rgba(26, 203, 221, 1);
+    background-color: rgba(53, 52, 52, 0.753);
+}
+
+.bed-icon>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: hsla(330, 50%, 98%, 0.795);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.box-7 {
+    flex: 1 0 49%;
+    /* Each box to be just under 50% of the width */
+    /* min-width: 250px; */
+    min-width: 65vh;
+    /* The "break-point" for stacking boxes vertically */
+    /* min-height: 200px; */
+    min-height: 80vh;
+    box-sizing: border-box;
+    background: url(assets/images/wood-frame.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-attachment: fixed; */
+}
+
+.box-7>.box-content {
+    margin-top: 100px;
+}
+
+.box-7>.box-content>h4 {
+    font-family: 'Lobster', cursive;
+    color: hsla(41, 98%, 67%, 0.986);
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+}
+
+.box-7>.box-content>h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: hsla(0, 0%, 100%, 0.925);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+
+
+.box-7>.box-content>p {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(0, 0%, 100%, 0.925);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+
+
+
+.wood-icons {
+    margin-top: 100px;
+}
+
+.wood-icon {
+    border-right: 2px solid #f9fbfb;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 5px;
+    color: rgb(255, 213, 98);
+
+}
+
+.wood-icon>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: hsla(330, 50%, 98%, 0.795);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-8 {
+    flex: 1 0 49%;
+    /* Each box to be just under 50% of the width */
+    /* min-width: 250px; */
+    min-width: 65vh;
+    /* The "break-point" for stacking boxes vertically */
+    /* min-height: 200px; */
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: inherit;
+    background: url(assets/images/box-8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    /* background-attachment: fixed; */
+}
+
+.box-8:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(127, 127, 127, 0.3);
+    background-image:
+        linear-gradient(45deg, black 15%, transparent 15%, transparent 85%, black 85%, black),
+        linear-gradient(45deg, black 15%, transparent 15%, transparent 85%, black 85%, black),
+        linear-gradient(-45deg, black 15%, transparent 15%, transparent 85%, black 85%, black),
+        linear-gradient(-45deg, black 15%, transparent 15%, transparent 85%, black 85%, black);
+    background-size: 2px 2px;
+}
+
+.box-8>.box-content>h4 {
+    font-family: 'Lobster', cursive;
+    color: hsla(147, 100%, 73%, 0.986);
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    line-height: 4rem;
+}
+
+.box-8>.box-content>p {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(0, 0%, 100%, 0.979);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.box-box-image {
+    max-height: 50vh;
+    max-width: 70vh;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.box-box-image>img {
+    width: 600px;
+    height: 500px;
+}
+
+.our-team {
+    text-align: center;
+    position: relative;
+    color: #fff;
+}
+
+.our-team:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+}
+
+.our-team:hover:before {
+    opacity: 1;
+}
+
+.our-team img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0;
+    background-color: rgba(252, 255, 103, 0.788);
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover .team-content {
+    bottom: 20%;
+}
+
+.our-team .team-content .name {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team:hover .team-content .name {
+    transform: translateY(30px);
+    transition-delay: 0.3s;
+}
+
+.our-team .team-content .post {
+    font-size: 17px;
+    display: block;
+    transition: all 0.3s ease 0s;
+    text-transform: capitalize;
+}
+
+.our-team:hover .team-content .post {
+    transform: translateY(-30px);
+    transition-delay: 0.3s;
+}
+
+@media screen and (max-width:990px) {
+    .our-team {
+        margin-bottom: 30px !important;
+    }
 }
