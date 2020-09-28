@@ -933,7 +933,7 @@ p {
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: inherit;
-    background: url(assets/images/box-8.jpg);
+    background: url(assets/images/box-8-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -960,7 +960,7 @@ p {
 
 .box-8>.box-content>h4 {
     font-family: 'Lobster', cursive;
-    color: hsla(147, 100%, 73%, 0.986);
+    color: hsla(44, 94%, 26%, 0.986);
     font-size: 4rem;
     font-weight: 500;
     text-align: center;
@@ -969,9 +969,9 @@ p {
 }
 
 .box-8>.box-content>p {
-    font-family: 'Roboto', sans-serif;
-    color: hsla(0, 0%, 100%, 0.979);
-    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: hsla(327, 98%, 17%, 0.979);
+    font-size: 3rem;
     font-weight: 500;
     text-align: center;
     line-height: 1.2rem;
@@ -981,13 +981,13 @@ p {
     max-height: 50vh;
     max-width: 70vh;
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 50px;
     margin: auto;
 }
 
 .box-box-image>img {
-    width: 600px;
-    height: 500px;
+    width: 550px;
+    height: 400px;
 }
 
 .our-team {
@@ -1062,4 +1062,139 @@ p {
     .our-team {
         margin-bottom: 30px !important;
     }
+}
+
+.comfort-sec {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    min-height: 90vh;
+}
+
+.comfort-sec>div>h4 {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(332, 100%, 69%, 0.897);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.comfort-sec>div>p {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(332, 97%, 71%, 0.822);
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.comfort-row-margin {
+    margin: auto;
+}
+
+.comfort-icon {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 5px;
+    color: rgba(16, 223, 223, 0.904);
+}
+
+.comfort-icon>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: hsla(330, 50%, 98%, 0.795);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.comfort-img>div {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.comfort-img>div>img {
+    width: 800px;
+    height: 400px;
+}
+
+
+.hero-cover {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.inner-2 {
+    min-height: 60vh;
+    position: relative;
+}
+
+#hero3 {
+    background: url(assets/images/hero-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.comfort-title-2 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.comfort-title-2>h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(182, 118, 22, 0.932);
+    letter-spacing: 0.3rem;
+}
+
+.comfort-title-2>p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgba(231, 247, 247, 0.863);
+    letter-spacing: 0.2rem;
+    background-color: rgba(53, 52, 52, 0.582);
+
+}
+
+.box-9 {
+    flex: 1 0 49%;
+    /* Each box to be just under 50% of the width */
+    /* min-width: 250px; */
+    min-width: 60vh;
+    /* The "break-point" for stacking boxes vertically */
+    /* min-height: 200px; */
+    min-height: 110vh;
+    box-sizing: border-box;
+    background: url(assets/images/description/description-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    /* background-attachment: fixed; */
+}
+
+.box-content-3 {
+    position: absolute;
+    top: 100px;
+    right: 90px;
+
+}
+
+.box-content-3>h4 {
+    font-family: 'Peddana', serif;
+    color: rgb(245, 245, 243);
+    background: rgb(246, 199, 205);
+    background: linear-gradient(90deg, rgba(246, 199, 205, 0.8687850140056023) 0%, rgba(8, 163, 159, 0.8603816526610644) 48%, rgba(221, 184, 61, 0.7987570028011204) 96%);
+    border-radius: 5px;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    padding: 0 20px;
+    margin-bottom: 0;
+
 }
