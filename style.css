@@ -1196,5 +1196,60 @@ p {
     letter-spacing: 0.5rem;
     padding: 0 20px;
     margin-bottom: 0;
+}
 
+.left-desc-col {
+    text-align: center;
+    padding: 3rem;
+}
+
+.right-desc-col {
+    text-align: center;
+    padding: 3rem;
+}
+
+.icon-span {
+    font-size: 2.2rem;
+    padding: 5px;
+
+}
+
+.icon-span>i {
+    color: rgb(11, 151, 128);
+}
+
+.icon-span>span {
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: hsl(214, 71%, 14%);
+}
+
+.desc-text-left {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.desc-text-left>p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+.li-font {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 2rem;
+}
+
+
+.color-p {
+    width: 400px;
+    padding: 5px;
+    margin: 0;
+    margin-left: 15px;
+    padding-left: 10px;
+    color: rgb(20, 20, 20);
 }
